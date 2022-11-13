@@ -177,7 +177,7 @@ if(OpenCV_FOUND)
 
     add_executable(opencv_demo example/opencv_demo.cc)
     target_link_libraries(opencv_demo apriltag ${OpenCV_LIBRARIES})
-    set_target_properties(opencv_demo PROPERTIES CXX_STANDARD 11)
+    set_target_properties(opencv_demo PROPERTIES CXX_STANDARD 20)
     install(TARGETS opencv_demo RUNTIME DESTINATION bin)
 else()
     message(STATUS "OpenCV not found: Not building demo")
