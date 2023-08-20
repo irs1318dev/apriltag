@@ -24,6 +24,11 @@
           "name": "BUILD_SHARED_LIBS",
           "value": "True",
           "type": "BOOL"
+        },
+        {
+          "name": "BUILD_EXAMPLES",
+          "value": "False",
+          "type": "BOOL"
         }
       ]
     },
@@ -51,6 +56,11 @@
         {
           "name": "BUILD_SHARED_LIBS",
           "value": "True",
+          "type": "BOOL"
+        },
+        {
+          "name": "BUILD_EXAMPLES",
+          "value": "False",
           "type": "BOOL"
         }
       ]
